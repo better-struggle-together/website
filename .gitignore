@@ -1,5 +1,8 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+# Netlify build
+out_*
+
 # dependencies
 /node_modules
 /.pnp
@@ -35,3 +38,6 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 .vscode/settings.json
+
+# Local Netlify folder
+.netlify
